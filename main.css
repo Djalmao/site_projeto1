@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Cambria';
+}
+
+section h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+section h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+header h1 {
+    font-size: 70px;
+}
+
+header ul li {
+    font-family: 'Franklin Gothic Medium';
+}
+
+body {
+    font-family: 'Gill Sans';
+}
+
+header {
+    padding: 16px 0;
+    background-color: darkgreen;
+    color: rgb(238, 149, 32);
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+    display: flex;
+    display: inline-block;
+    margin-left: 16px;
+}
+
+section {
+    padding: 16px 0;
+}
+
+.articles {
+    margin-bottom: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+section {
+    color: darkgreen;
+}
+
+section p {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.Manaus {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+    margin-right: 16px;
+}
+
+footer {
+    background-color: darkgreen;
+    color:  rgb(238, 149, 32);
+    padding: 16px 0;
+}
+
+#about {
+    background-color: lightcyan;
+}
+
+#tourism {
+    background-color: bisque;
+}
+
+#industry {
+    background-color: khaki;
+}
+
+#follow {
+    background-color: lightcoral;
+}
